@@ -1,0 +1,65 @@
+body {
+
+margin: 0;
+font-family: "Open Sans", sans-serif;
+}
+
+.page {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 65px;
+}
+
+nav {
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li a {
+  font-family: "Open Sans", sans-serif;
+  
+ .hover-text {
+  color: black;
+ }
+ .hover-text:hover {
+  color: #3F3D56;
+ }
+ 
+ text-decoration-line: none;
+
+
+
+}
+
+ul {
+  
+  display: flex;
+  gap: 21px;
+  list-style: none;
+  padding: 0;
+}
+
+ul li a:hover {
+font-weight: bold;
+}
+
+strong {
+color:#3F3D56
+}
+
+main {
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+  align-items: center;
+
+}
+
+h2 {
+  color:#3F3D56
+}
